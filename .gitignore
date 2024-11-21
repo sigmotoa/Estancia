@@ -282,3 +282,4 @@ cython_debug/
 #.idea/
 
 .idea
+test_main.http
