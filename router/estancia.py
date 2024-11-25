@@ -7,4 +7,5 @@ estancia = APIRouter()
 
 @estancia.get("/lists")
 def show_content_list():
-    return COURSE_DATA["title"]
+    titles = [{"id": item.id, "title":item.title} for item in COURSE_DATA]
+    return titles
