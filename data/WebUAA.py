@@ -22,7 +22,7 @@ COURSE_DATA = [
     CourseItem(
         id=3,
         title="First steps in GIT",
-        key_concepts=[
+        key_contents=[
             CourseContent(topic="Download", description="Go to the git website and download and install based in your OS.", resources=["https://git-scm.com/downloads/"]),
             CourseContent(topic="Install", description="Click next in the window until finish."),
             CourseContent(topic="Setting Up", description="In the Command Line add your name and email. Is mandatory to sign your commits.", resources=["https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup"])
@@ -31,7 +31,7 @@ COURSE_DATA = [
     CourseItem(
         id=4,
         title="Your first local repo",
-        key_concepts=[
+        key_contents=[
             CourseContent(topic="Choose or create an empty folder", description="In an empty folder viewed from CLI run: ´git init .´ ", resources=["https://git-scm.com/book/ms/v2/Git-Basics-Getting-a-Git-Repository"])
         ]
     )
