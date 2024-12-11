@@ -22,7 +22,7 @@ def start_background_tasks():
     scheduler.start()
 def keep_awake():
     try:
-        response = requests.get("http://127.0.0.1:8000/")  # Ping your root endpoint
+        response = requests.get("https://estancia.onrender.com/")  # Ping your root endpoint
         response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
         print(f"Ping successful: {response.status_code}")
     except requests.exceptions.RequestException as e:
