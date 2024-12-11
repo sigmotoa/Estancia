@@ -9,4 +9,4 @@ class CourseContent(BaseModel):
 class CourseItem(BaseModel):
     id:int
     title:str
-    key_contents: Optional[List[CourseContent]]
+    key_contents:Optional[List[CourseContent]]=None
