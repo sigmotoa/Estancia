@@ -25,9 +25,7 @@ COURSE_DATA = [
         key_concepts=[
             CourseContent(topic="Download", description="Go to the git website and download and install based in your OS.", resources=["https://git-scm.com/downloads/"]),
             CourseContent(topic="Install", description="Click next in the window until finish."),
-            CourseContent(topic="Setting Up", description="In the Command Line add your name and email. Is mandatory to sign your commits.", resources=["https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup"]),
-
-
+            CourseContent(topic="Setting Up", description="In the Command Line add your name and email. Is mandatory to sign your commits.", resources=["https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup"])
         ]
     ),
     CourseItem(
