@@ -18,7 +18,7 @@ async def say_hello(name: str):
 @app.on_event("startup") # Use on_event to start after FastAPI
 def start_background_tasks():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(keep_awake, 'interval', minutes=8) # trigger every 8 minutes
+    scheduler.add_job(keep_awake, 'interval', minutes=1) # trigger every 8 minutes
     scheduler.start()
 def keep_awake():
     try:
